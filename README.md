@@ -25,8 +25,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Qquicker',
-                'position' => 'Founder'
+                'company' => 'Gozic',
+                'position' => 'Coder'
             ]
         ];
     }
@@ -36,12 +36,13 @@ class About extends Me
         return [
             Php::class,
             Javascript::class,
+            Typescript::class,
+            Nodejs::class,    
             Laravel::class,
+            React::class,
             Vuejs::class,
             Angular::class,
-            ReactNative::class,
             TailwindCss::class,
-            Aws::class,
         ];
     }
 
